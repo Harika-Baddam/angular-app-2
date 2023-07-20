@@ -7,6 +7,10 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
+- name: Azure Pipelines Action
+  uses: Azure/pipelines@v1.2
+
+
 trigger:
 - master
 
