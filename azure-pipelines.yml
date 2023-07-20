@@ -1,14 +1,7 @@
 # Node.js
-- task: TerraformTaskV4@4
-  inputs:
-    provider: 'azurerm'
-    command: 'init'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
-
-- name: Azure Pipelines Action
-  uses: Azure/pipelines@v1.2
 
 
 trigger:
